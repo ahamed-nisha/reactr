@@ -11,6 +11,7 @@ const App = () => {
         subtitle="Whether you're breaking in or trading up: your skills deserve the right stage."
         caption="React to that."
       />
+      <Cards />
 
       {/* Browse Jobs */}
       <section className="bg-blue-50 px-4 py-10">
@@ -27,20 +28,16 @@ const App = () => {
                   <h3 className="text-xl font-bold">Senior React Developer</h3>
                 </div>
 
-                <div className="mb-5">
-                  We are seeking a talented Front-End Developer to join our team
-                  in Boston, MA. The ideal candidate will have strong skills in
-                  HTML, CSS, and JavaScript...
-                </div>
+                <div className="mb-5">Weeee</div>
 
-                <h3 className="text-indigo-500 mb-2">$70 - $80K / Year</h3>
+                <h3 className="text-indigo-500 mb-2">$100 - $120K / Year</h3>
 
                 <div className="border border-gray-100 mb-5"></div>
 
                 <div className="flex flex-col lg:flex-row justify-between mb-4">
                   <div className="text-orange-700 mb-3">
                     <i className="fa-solid fa-location-dot text-lg"></i>
-                    Boston, MA
+                    Seattle, WA
                   </div>
                   <a
                     href="job.html"
@@ -61,19 +58,16 @@ const App = () => {
                   </h3>
                 </div>
 
-                <div className="mb-5">
-                  Join our team as a Front-End Developer in sunny Miami, FL. We
-                  are looking for a motivated individual with a passion...
-                </div>
+                <div className="mb-5">etc...</div>
 
-                <h3 className="text-indigo-500 mb-2">$70K - $80K / Year</h3>
+                <h3 className="text-indigo-500 mb-2">$120 - $130K / Year</h3>
 
                 <div className="border border-gray-100 mb-5"></div>
 
                 <div className="flex flex-col lg:flex-row justify-between mb-4">
                   <div className="text-orange-700 mb-3">
                     <i className="fa-solid fa-location-dot text-lg"></i>
-                    Miami, FL
+                    San Francisco, CA
                   </div>
                   <a
                     href="job.html"
@@ -92,20 +86,16 @@ const App = () => {
                   <h3 className="text-xl font-bold">React.js Developer</h3>
                 </div>
 
-                <div className="mb-5">
-                  Are you passionate about front-end development? Join our team
-                  in vibrant Brooklyn, NY, and work on exciting projects that
-                  make a difference...
-                </div>
+                <div className="mb-5">blah blah...</div>
 
-                <h3 className="text-indigo-500 mb-2">$70K - $80K / Year</h3>
+                <h3 className="text-indigo-500 mb-2">$2 Million / Year</h3>
 
                 <div className="border border-gray-100 mb-5"></div>
 
                 <div className="flex flex-col lg:flex-row justify-between mb-4">
                   <div className="text-orange-700 mb-3">
                     <i className="fa-solid fa-location-dot text-lg"></i>
-                    Brooklyn, NY
+                    New York, NY
                   </div>
                   <a
                     href="job.html"
