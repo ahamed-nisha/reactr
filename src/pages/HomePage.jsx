@@ -12,7 +12,7 @@ const HomePage = () => {
         caption="React to that."
       />
       <Cards />
-      <JobListings />
+      <JobListings isHome={true} />
       <ViewAll />
     </>
   );
